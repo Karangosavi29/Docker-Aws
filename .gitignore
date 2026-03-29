@@ -1,0 +1,64 @@
+# ----------------------
+# Node modules
+# ----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------
+# Build outputs
+# ----------------------
+dist/
+build/
+out/
+
+# ----------------------
+# Logs
+# ----------------------
+logs/
+*.log
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# Docker
+# ----------------------
+.dockerignore
+docker-compose.override.yml
+
+# ----------------------
+# Coverage
+# ----------------------
+coverage/
+
+# ----------------------
+# Cache
+# ----------------------
+.cache/
+.parcel-cache/
+.vite/
+
+# ----------------------
+# Misc
+# ----------------------
+*.local
